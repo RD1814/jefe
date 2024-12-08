@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Quack" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Web</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Vinculamos el archivo CSS -->
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección principal -->
+  <section id="home">
+    <h1>Bienvenido a mi página web</h1>
+    <p>Este es un sitio web de ejemplo para aprender a desarrollar páginas web con HTML y CSS.</p>
+  </section>
+
+  <!-- Sección sobre mí -->
+  <section id="about">
+    <h2>Sobre mí</h2>
+    <p>Me apasiona el desarrollo web y siempre estoy aprendiendo nuevas tecnologías.</p>
+  </section>
+
+  <!-- Sección de contacto -->
+  <section id="contact">
+    <h2>Contacto</h2>
+    <p>Si deseas ponerte en contacto conmigo, puedes enviarme un correo a: <a href="mailto:ejemplo@correo.com">ejemplo@correo.com</a></p>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+
+/* Estilos básicos para toda la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos de las secciones */
+section {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+section#home {
+  background-color: #fff;
+}
+
+section#about {
+  background-color: #e2e2e2;
+}
+
+section#contact {
+  background-color: #fff;
+}
+
+/* Estilo para el pie de página */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
